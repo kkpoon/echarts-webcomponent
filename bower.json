@@ -20,6 +20,7 @@
   ],
   "dependencies": {
     "echarts": "^3.4.0",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.24"
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.24",
+    "custom-elements": "webcomponents/custom-elements#^1.0.0-alpha.3"
   }
 }

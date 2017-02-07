@@ -8,8 +8,9 @@
 ```
 <custom-element-demo>
   <template>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/3.4.0/echarts.min.js"></script>
+    <script src="../echarts/dist/echarts.min.js"></script>
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../custom-elements/custom-elements.min.js"></script>
     <link rel="import" href="echarts-webcomponent.html">
     <next-code-block></next-code-block>
   </template>
