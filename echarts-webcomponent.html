@@ -1,0 +1,50 @@
+<script src="bower_components/echarts/dist/echarts.min.js"></script>
+<script>
+class EChartWebComponent extends HTMLElement {
+    constructor() {
+        super();
+        this.chart = echarts.init(this);
+        this.updateChart();
+    }
+
+    disconnectedCallback() {
+        this.chart.dispose();
+    }
+
+    static get observedAttributes() {
+        return ["style", "option"];
+    }
+
+    attributeChangedCallback(name, oldValue, newValue) {
+        if (name === "option") {
+            this.updateChart();
+        } else if (name === "style") {
+            this.chart.resize();
+        }
+    }
+
+    updateChart() {
+        let option = JSON.parse(this.option || "{}");
+        this.chart.setOption(option);;
+    }
+
+    get option() {
+        if (this.hasAttribute("option")) {
+            return this.getAttribute("option");
+        } else {
+            return "{}";
+        }
+    }
+
+    set option(val) {
+        if (val) {
+            this.setAttribute("option", val);
+        } else {
+            this.setAttribute("option", "{}");
+        }
+        this.updateChart();
+    }
+}
+
+window.customElements.define("echarts-webcomponent", EChartWebComponent);
+</script>

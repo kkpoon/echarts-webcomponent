@@ -1,0 +1,21 @@
+{
+  "name": "echarts-webcomponent",
+  "homepage": "https://github.com/kkpoon/echarts-webcomponent",
+  "authors": [
+    "kkpoon <noopkk@gmail.com>"
+  ],
+  "description": "echarts webcomponent",
+  "main": "echarts-wc.js",
+  "keywords": [
+    "webcomponent",
+    "echarts"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
