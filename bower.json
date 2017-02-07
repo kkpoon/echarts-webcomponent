@@ -17,5 +17,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "echarts": "^3.4.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.24"
+  }
 }
