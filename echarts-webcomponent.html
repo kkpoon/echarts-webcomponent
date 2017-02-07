@@ -2,8 +2,13 @@
 class EChartWebComponent extends HTMLElement {
     constructor() {
         super();
-        this.chart = echarts.init(this);
-        this.updateChart();
+    }
+
+    connectedCallback() {
+        if (!this.chart) {
+            this.chart = echarts.init(this);
+            this.updateChart();
+        }
     }
 
     disconnectedCallback() {
@@ -18,13 +23,19 @@ class EChartWebComponent extends HTMLElement {
         if (name === "option") {
             this.updateChart();
         } else if (name === "style") {
-            this.chart.resize();
+            this.resizeChart();
         }
     }
 
     updateChart() {
+        if (!this.chart) return;
         let option = JSON.parse(this.option || "{}");
         this.chart.setOption(option);;
+    }
+
+    resizeChart() {
+        if (!this.chart) return;
+        this.chart.resize();
     }
 
     get option() {
