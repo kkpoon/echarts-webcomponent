@@ -2,11 +2,14 @@
 class EChartWebComponent extends HTMLElement {
     constructor() {
         super();
+        let container = document.createElement("div");
+        this.container = container;
+        this.appendChild(container);
     }
 
     connectedCallback() {
         if (!this.chart) {
-            this.chart = echarts.init(this);
+            this.chart = echarts.init(this.container);
             this.updateChart();
         }
     }
@@ -23,6 +26,7 @@ class EChartWebComponent extends HTMLElement {
         if (name === "option") {
             this.updateChart();
         } else if (name === "style") {
+            this.container.style = newValue;
             this.resizeChart();
         }
     }
