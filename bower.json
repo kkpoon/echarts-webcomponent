@@ -6,7 +6,7 @@
     "kkpoon <noopkk@gmail.com>"
   ],
   "description": "echarts webcomponent",
-  "main": "echarts-wc.js",
+  "main": "echarts-webcomponent.html",
   "keywords": [
     "webcomponent",
     "echarts"
