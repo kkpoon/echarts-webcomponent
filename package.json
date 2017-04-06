@@ -1,6 +1,6 @@
 {
   "name": "echarts-webcomponent",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "echarts webcomponent",
   "main": "index.html",
   "repository": {
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/kkpoon/echarts-webcomponent/issues"
   },
-  "homepage": "https://github.com/kkpoon/echarts-webcomponent#readme"
+  "homepage": "https://github.com/kkpoon/echarts-webcomponent#readme",
+  "dependencies": {
+    "custom-elements": "^1.0.2",
+    "echarts": "^3.5.2",
+    "webcomponentsjs": "^1.0.2"
+  }
 }
