@@ -1,27 +1,26 @@
 {
-  "name": "echarts-webcomponent",
-  "version": "1.0.7",
-  "homepage": "https://github.com/kkpoon/echarts-webcomponent",
-  "authors": [
-    "kkpoon <noopkk@gmail.com>"
-  ],
-  "description": "echarts webcomponent",
-  "main": "echarts-webcomponent.html",
-  "keywords": [
-    "webcomponent",
-    "echarts"
-  ],
-  "license": "Apache-2.0",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "echarts": "^3.4.0",
-    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.24",
-    "custom-elements": "webcomponents/custom-elements#^1.0.0-alpha.3"
-  }
+    "name": "echarts-webcomponent",
+    "version": "1.0.8",
+    "homepage": "https://github.com/kkpoon/echarts-webcomponent",
+    "authors": [
+        "kkpoon <noopkk@gmail.com>"
+    ],
+    "description": "echarts webcomponent",
+    "main": "echarts-webcomponent.html",
+    "keywords": [
+        "webcomponent",
+        "echarts"
+    ],
+    "license": "Apache-2.0",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "echarts": "^3.6.2",
+        "webcomponentsjs": "^1.0.1"
+    }
 }
