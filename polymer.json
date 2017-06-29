@@ -1,0 +1,20 @@
+{
+    "entrypoint": "echarts-webcomponent.html",
+    "lint": {
+        "rules": [
+            "polymer-2"
+        ]
+    },
+    "builds": [{
+        "js": {
+            "minify": true,
+            "compile": true
+        },
+        "css": {
+            "minify": true
+        },
+        "html": {
+            "minify": true
+        }
+    }]
+}

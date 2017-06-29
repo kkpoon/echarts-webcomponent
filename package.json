@@ -1,25 +1,25 @@
 {
-  "name": "echarts-webcomponent",
-  "version": "1.0.7",
-  "description": "echarts webcomponent",
-  "main": "index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kkpoon/echarts-webcomponent.git"
-  },
-  "keywords": [
-    "echart",
-    "webcomponent"
-  ],
-  "author": "kkpoon <noopkk@gmail.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/kkpoon/echarts-webcomponent/issues"
-  },
-  "homepage": "https://github.com/kkpoon/echarts-webcomponent#readme",
-  "dependencies": {
-    "custom-elements": "^1.0.2",
-    "echarts": "^3.5.2",
-    "webcomponentsjs": "^1.0.2"
-  }
+    "name": "echarts-webcomponent",
+    "version": "1.0.7",
+    "description": "echarts webcomponent",
+    "main": "index.html",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kkpoon/echarts-webcomponent.git"
+    },
+    "keywords": [
+        "echart",
+        "webcomponent"
+    ],
+    "author": "kkpoon <noopkk@gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/kkpoon/echarts-webcomponent/issues"
+    },
+    "homepage": "https://github.com/kkpoon/echarts-webcomponent#readme",
+    "dependencies": {
+        "custom-elements": "^1.0.2",
+        "echarts": "^3.5.2",
+        "webcomponentsjs": "^1.0.2"
+    }
 }
