@@ -36,6 +36,10 @@ class EChartWebComponent extends HTMLElement {
         if (name === "option") {
             this.updateChart();
         } else if (name === "style") {
+            let container = this.shadowRoot.querySelector("#container");
+            if (container) {
+                container.style = newValue;
+            }
             this.resizeChart();
         }
     }
