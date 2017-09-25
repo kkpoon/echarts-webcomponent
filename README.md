@@ -1,5 +1,6 @@
 # echarts-webcomponent
 
+[![npm](https://img.shields.io/npm/v/echarts-webcomponent.svg)](https://www.npmjs.com/package/echarts-webcomponent)
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/kkpoon/echarts-webcomponent)
 
 ## Demo

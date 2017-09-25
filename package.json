@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/kkpoon/echarts-webcomponent#readme",
   "dependencies": {
+    "@webcomponents/webcomponentsjs": "^1.0.13",
     "custom-elements": "^1.0.2",
-    "echarts": "^3.5.2",
-    "webcomponentsjs": "^1.0.2"
+    "echarts": "^3.5.2"
   }
 }
