@@ -2,7 +2,11 @@
   "name": "echarts-webcomponent",
   "version": "1.0.11",
   "description": "echarts webcomponent",
-  "main": "index.html",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "start": "http-server"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kkpoon/echarts-webcomponent.git"
@@ -18,8 +22,15 @@
   },
   "homepage": "https://github.com/kkpoon/echarts-webcomponent#readme",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "^1.0.13",
-    "custom-elements": "^1.0.2",
-    "echarts": "^3.5.2"
+    "@webcomponents/webcomponentsjs": "^2.1.3",
+    "echarts": "^3.8.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "http-server": "^0.11.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
   }
 }
