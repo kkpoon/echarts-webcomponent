@@ -2,10 +2,11 @@
   "name": "echarts-webcomponent",
   "version": "1.0.11",
   "description": "echarts webcomponent",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "webpack --progress",
-    "start": "http-server"
+    "start": "http-server",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
