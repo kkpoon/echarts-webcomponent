@@ -16,7 +16,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/3.6.2/echarts.min.js" integrity="sha256-fp0z3xrboeLp/Wr7nckIqBgpU4u+mq/aNb00YVxmB4w=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.1.3/webcomponents-bundle.js" integrity="sha256-4jOg/7MBayBO2wu7hBlS/rMaGUrVPNRzx2ADOR8kv9M=" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
     <script>
         window.addEventListener('WebComponentsReady', function (e) {
             window.customElements.define("echarts-webcomponent", EChartsWebComponent);
